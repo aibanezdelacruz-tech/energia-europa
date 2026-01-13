@@ -11,6 +11,7 @@
     .muted { color: #555; margin-top: 0; }
     .card { border: 1px solid #ddd; border-radius: 12px; padding: 16px; margin: 18px 0; }
     img { width: 100%; height: auto; border-radius: 10px; border: 1px solid #eee; }
+    iframe { width: 100%; height: 720px; border: 1px solid #eee; border-radius: 10px; }
     .links a { margin-right: 12px; }
   </style>
 </head>
@@ -21,23 +22,19 @@
 
     <div class="card">
       <h2>1) Evolución de la composición energética europea (2014–2019)</h2>
-      <!-- Si es imagen: -->
-      <img src="assets/viz1_evolucion.png" alt="Evolución del mix energético europeo 2014-2019">
-      <!-- Si es HTML interactivo, comenta la imagen y usa esto:
-      <iframe src="viz/evolucion.html" width="100%" height="700" style="border:0;"></iframe>
-      -->
+      <img src="assets/viz1_evolucion_mix.png" alt="Evolución del mix energético europeo 2014–2019">
     </div>
 
     <div class="card">
       <h2>2) Comparador de países – Mix energético (2019)</h2>
-      <img src="assets/viz2_comparador.png" alt="Comparador de países mix energético 2019">
-      <!-- o iframe: <iframe src="viz/comparador.html" ...></iframe> -->
+      <iframe src="viz/viz2_comparar_mix_paises.html" title="Comparador de países mix energético 2019"></iframe>
+      <p class="muted">Si no se carga en móvil, abre: <a href="viz/viz2_comparar_mix_paises.html">ver visualización</a></p>
     </div>
 
     <div class="card">
       <h2>3) MW renovables por habitante (Top países, 2019)</h2>
-      <img src="assets/viz3_percapita.png" alt="Ranking MW renovables por habitante 2019">
-      <!-- o iframe: <iframe src="viz/percapita.html" ...></iframe> -->
+      <iframe src="viz/viz3_capacidad_renovable.html" title="MW renovables por habitante 2019"></iframe>
+      <p class="muted">Si no se carga en móvil, abre: <a href="viz/viz3_capacidad_renovable.html">ver visualización</a></p>
     </div>
 
     <p class="links">
